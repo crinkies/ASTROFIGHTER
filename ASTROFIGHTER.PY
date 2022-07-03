@@ -11,7 +11,7 @@ try:
 except ModuleNotFoundError:
     shell.system('pip install pygame')
 
-asset_dir = path.join(path.dirname(__file__), 'asset')
+asset_dir = path.join(path.dirname(__file__), 'ASSET')
 
 WIDTH = 480
 HEIGHT = 600
