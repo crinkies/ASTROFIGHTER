@@ -315,7 +315,7 @@ powerup_images['shield'] = pygame.image.load(path.join(asset_dir, 'shield_01.png
 powerup_images['gun'] = pygame.image.load(path.join(asset_dir, 'gun_01.png'))
 powerup_images['life_powerup'] = pygame.image.load(path.join(asset_dir, 'heart.png'))
 powerup_images['nuke'] = pygame.image.load(path.join(asset_dir, 'nuke.png'))    
-laser_sound = pygame.mixer.Sound(path.join(asset_dir, 'laser_04.wav'))
+laser_sound = pygame.mixer.Sound(path.join(asset_dir, 'laser_01.wav'))
 pygame.mixer.Sound.set_volume(laser_sound, 0.3)
 shield_sound = pygame.mixer.Sound(path.join(asset_dir, 'shield_01.wav'))
 pygame.mixer.Sound.set_volume(laser_sound, 0.3)
