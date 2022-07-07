@@ -336,7 +336,7 @@ for sound in ['explosion_01.wav', 'explosion_02.wav']:
         Sounds.set_volume(0.2)
         
 
-pygame.mixer.music.load(path.join(asset_dir, 'song_03.ogg'))
+pygame.mixer.music.load(path.join(asset_dir, 'song_01.ogg'))
 pygame.mixer.music.set_volume(.8)
 
 
