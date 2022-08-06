@@ -1,4 +1,4 @@
-import os as shell
+import os
 from os import path
 from os import environ
 import random
@@ -9,7 +9,7 @@ environ['PYGAME_HIDE_SUPPORT_PROMPT'] = '1'
 try:
     import pygame
 except ModuleNotFoundError:
-    shell.system('pip install pygame')
+    os.system('pip install pygame')
 
 asset_dir = path.join(path.dirname(__file__), 'ASSET')
 
